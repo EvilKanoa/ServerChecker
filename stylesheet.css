@@ -1,0 +1,73 @@
+/**************************************/
+/*    MC Server Checker Stylesheet    */
+/**************************************/
+
+body {
+    background-color: #3B6303;
+    background-image: url('img/grass_block.png');
+}
+
+p {
+    text-align: center;
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+}
+
+#header {
+    color: #000000;
+    font-size: 400%;
+    font-weight: 900;
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: cursive;
+}
+
+.warning {
+    color: red;
+    font-size: 200%;
+    font-weight: 600;
+    border: 3px dashed yellow;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ip {
+    font-size: 130%;
+    font-family: Verdana;
+    font-weight: bold;
+    margin-bottom: -10px;
+}
+
+.offline {
+    color: DarkRed;
+}
+
+.online {
+    color: LightGreen;
+}
+
+.players {
+    font-size: 20px;
+}
+
+.single-server {
+    height: 100px;
+    width: 480px;
+    background-color: #626262;
+    background-image: url('img/stone_block.png');
+    border: 3px solid black;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.single-server:hover {
+    border: 3px solid #3D6767;
+}
